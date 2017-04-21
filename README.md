@@ -1,6 +1,9 @@
 # RingRosey
-Simple Lua | Love2D ring segment helper
-Authour ArchAngel075 | Jaco Kotzé
+
+Simple Lua/Love2D ring segment helper
+
+Authour : ArchAngel075 | Jaco Kotzé
+
 License : DO WHAT YOU WANT
 
 ### ArcSegment(cx,cy,radius1,radius2,start,arc)
