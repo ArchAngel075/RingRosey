@@ -18,7 +18,7 @@ local function ArcSegments(x,y,outer_radius,inner_radius,steps,arc)
   local r1 = outer_radius
   local r2 = inner_radius
   local ri = steps or 1
-  local r3 = r1/ri
+  local r3 = (r1-r2)/ri
   local arc = arc or 45
   local i = 0
   for r = r2,r1,r3 do
