@@ -31,7 +31,7 @@ outer_radius   : The outer radius (total radius) of the ring.
 
 inner_radius   : The inner radius to use
 
-steps          : ring modifier, a greater value means more steps/rings of segments
+steps          : attempts to create this many rings from the inner to outer radius, *has some issues with high precision floats it seems.
 
 arc            : the segment size to use, in degrees.
 
