@@ -25,9 +25,9 @@ local function ArcSegments(x,y,outer_radius,inner_radius,steps,arc)
     i = i + 1
     rings[i] = {}
     local k = 0
-    for start = 0,360,arc do
+    for start = 0,360-arc,arc do
       k = k + 1
-      rings[i][k] = {ArcSegment(x,y,r,r2,start,arc)}
+      rings[i][k] = {ArcSegment(x,y,r,r+r3,start,arc)}
     end
   end
   return rings
